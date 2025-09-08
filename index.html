@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo App</title>
+</head>
+<body>
+    <!-- Navbar -->
+     <nav>
+        <div class="navbar-container">
+
+            <h1>ToDo</h1>
+            <p id="date"></p>
+        </div>
+     </nav>
+
+    <!-- Main Content -->
+     <main>
+        <div class="main">
+        <div class="main-content">
+            
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <br>
+                <div class="button">
+                    <button id="add-task-btn" onclick="addTask()">Add Task</button>
+                </div>
+            </div>
+        
+        <ul id="taskList">
+            <!-- Tasks will be added here dynamically -->
+        </ul>
+        </div>
+
+
+     </main>
+        <script src="script.js"></script>
+</body>
+</html>
